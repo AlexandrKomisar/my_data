@@ -1,0 +1,23 @@
+.data{
+    &__content{
+        display: flex;
+        flex-wrap: nowrap;
+        color: #EADCEC;
+        padding: 15px;
+        &_graph{
+            width: 50%;
+            min-height: 300px;
+            background: #404C57;
+            margin-right: 15px;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        &_chart{
+             width: 50%;
+            min-height: 300px;
+            background: #404C57;
+            border-radius: 5px;
+            padding: 15px;
+        }
+    }
+}
