@@ -34,11 +34,12 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
+  font-size: 26px;
 }
 .header__list_item_1 {
   text-align: center;
-  width: 150px;
-  height: 100px;
+  width: 20%;
+  height: 150px;
   background: #2FC8A1;
   padding: 10px;
   border-radius: 5px;
@@ -46,8 +47,8 @@
 .header__list_item_2 {
   text-align: center;
   color: #EADCEC;
-  width: 150px;
-  height: 100px;
+  width: 20%;
+  height: 150px;
   background: #B25BE5;
   padding: 10px;
   border-radius: 5px;
@@ -55,8 +56,8 @@
 .header__list_item_3 {
   text-align: center;
   color: #EADCEC;
-  width: 150px;
-  height: 100px;
+  width: 20%;
+  height: 150px;
   background: #F08E4F;
   padding: 10px;
   border-radius: 5px;
@@ -64,8 +65,8 @@
 .header__list_item_total {
   text-align: center;
   color: #EADCEC;
-  width: 150px;
-  height: 100px;
+  width: 20%;
+  height: 150px;
   background: #4BA4E8;
   padding: 10px;
   border-radius: 5px;
