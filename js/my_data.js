@@ -34,13 +34,17 @@ let sumPriceWater = 0;
 let totalWater = 0;
 
 // рахуємо скільки спожито кубів води
-for (let i = 1; i < water[1].length; i++){
-  totalWater += water[1][i] - water[1][i - 1];
-  sumPriceWater= Math.round(totalWater * priceWater)
-  console.log(i);
-  console.log(water[1][0]);
-
+function fWater () {
+  for (let i = 1; i < water[1].length; i++){
+    totalWater += water[1][i] - water[1][i - 1];
+    sumPriceWater= Math.round(totalWater * priceWater)
+    // console.log(i);
+    // console.log(water[1][0]);
+    
+  }
+  return 
 }
+fWater();
  
 let out_totalWater = document.getElementById("out_totalWater");
 out_totalWater.innerHTML = totalWater;
@@ -48,6 +52,25 @@ out_totalWater.innerHTML = totalWater;
 let out_sumPriceWater = document.getElementById("out_sumPriceWater");
 out_sumPriceWater.innerHTML = sumPriceWater;
 
- console.log(sumPriceWater);
- console.log("totalWater -- "+totalWater);
+//  console.log(sumPriceWater);
+//  console.log("totalWater -- "+totalWater);
 
+// internet//
+let priseInternet = 165;
+let sumInternet = 0
+
+let internet = [
+  // 2020
+  [165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165], 
+  [165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165],
+  [165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165],
+  // 2023
+  [165, 165, 165, 165],
+];
+
+for (let i of internet){
+  for (let j of i) {
+    sumInternet+=j
+  } 
+}
+console.log(sumInternet);
