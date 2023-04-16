@@ -65,7 +65,7 @@ let internet = [
   [165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165],
   [165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165, 165],
   // 2023
-  [165, 165, 165, 165],
+  [165, 165, 165, 165,],
 ];
 
 for (let i of internet){
@@ -74,3 +74,6 @@ for (let i of internet){
   } 
 }
 console.log(sumInternet);
+
+let out_sumInternet = document.getElementById("out_sumInternet");
+out_sumInternet.innerHTML = sumInternet;

@@ -10,19 +10,22 @@
 <body>
     <div class="container">
         <div class="wrapper">
-            <div class="menu">
-                <h3>menu</h3>
-            </div>
-            <div class="big">
-                <!-- Header=========================================================== -->
-                <div class="header">
-                    <div class="header__title">
-                        <h1>Адреса</h1>
-                    </div>
-                        <div class="header__list">
+<!-- Header=========================================================== -->
+            <div class="header">
+                <div class="header__title">
+                    <h1>Адреса</h1>
+                </div>
+                <div class="header__list">
                             <div class="header__list_item_1">1</div>
                             <div class="header__list_item_2">2</div>
-                            <div class="header__list_item_3">3</div>
+                            <div class="header__list_item_3">
+                                <h3>Інтернет</h3>
+                                <hr>
+                                <p>---</p>
+                                <p>
+                                    <span id="out_sumInternet">Данні відсутні</span> грн
+                                </p>
+                            </div>
                             <div class="header__list_item_total">
                                 <h3>Вода</h3>
                                 <hr>
@@ -33,24 +36,31 @@
                                     <span id="out_sumPriceWater"></span> грн
                                 </p>
                             </div>
-                        </div>
                 </div>
-                <!-- Data============================================================= -->
-                <section class="data">
+                <div class="data">
                     <div class="data__content">
                         <div class="data__content_graph">grafik</div>
                         <div class="data__content_chart">diagrama</div>
                     </div>
+                </div>
+<!-- Data============================================================= -->
+                <section id="content1" class="data">
+                    <p>Описание</p>
+                </section>  
+                <section id="content2" class="data">
+                    <p>Описание</p>
+                </section>  
+                <section id="content3" class="data">
+                    <p>4 </p>
                 </section>
-                <!-- Footer============================================================= -->
+<!-- Footer============================================================= -->
                 <footer class="footer">
                     <h5>footer</h5>
                 </footer>
             </div>
-        </div>
     </div>
 
     <script src="./js/my_data.js"></script>
         
-</body>
+    </body>
 </html>
