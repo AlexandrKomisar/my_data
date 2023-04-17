@@ -46,16 +46,20 @@
 			<main >
         <div class="tabs">
           <div id="container">
-            <input id="tab1" type="radio" name="tabs" checked>
-            <label for="tab1">вкладка 1</label>
+            <input  id="tab1" type="radio" name="tabs" checked>
+            <label class="tabs__btnWater" for="tab1">Вода</label>
             <input id="tab2" type="radio" name="tabs">
-            <label for="tab2">вкладка 2</label>
+            <label for="tab2">
+				<button>Газ</button>	
+			</label>
             <input id="tab3" type="radio" name="tabs">
-            <label for="tab3">вкладка 3</label>
+            <label for="tab3">Квартплата</label>
             <input id="tab4" type="radio" name="tabs">
-            <label for="tab4">вкладка 4</label>
-            <section id="content1">
-              <p>1</p>
+            <label for="tab4">Електроенергія</label>
+			<input id="tab5" type="radio" name="tabs">
+            <label for="tab5">Інтернет</label>
+            <section class="tabs__water" id="content1">
+              <p>Вода</p>
             </section>  
             <section id="content2">
               <p>2</p>
@@ -65,6 +69,9 @@
             </section>  
             <section id="content4">
               <p>4</p>
+            </section>
+			<section id="content5">
+              <p>Інтернет</p>
             </section>  
           </div>
         </div>

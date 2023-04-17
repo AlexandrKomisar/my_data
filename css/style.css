@@ -50,11 +50,26 @@
   position: relative;
   border: 1px solid #DEE8F2;
 }
+.tabs__btnWater {
+  background: #4ba4e8;
+}
+.tabs__water {
+  display: none;
+  padding: 15px;
+  background: #4ba4e8;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 180px;
+  width: 800px;
+}
 
 section {
   display: none;
   padding: 15px;
-  background: white;
+  background: #5a3636;
   position: absolute;
   top: 0;
   left: 180px;
@@ -73,16 +88,20 @@ label {
   width: 180px;
   padding: 15px;
   color: #4F5966;
-  background: #DEE8F2;
+  background: #d1dbe5;
   cursor: pointer;
 }
 
 input:checked + label {
-  color: #555;
-  background: white;
+  color: #25ad3c;
+  background: #ffffff;
 }
 
-#tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4 {
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
   display: block;
 }
 
