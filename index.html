@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <div class="wrapper">
-			<div class="header">
+			<header class="header">
 				<div class="header__title">
 					<h1>Адреса</h1>
 				</div>
@@ -42,21 +42,36 @@
 						<div class="data__content_chart">==========</div>
 					</div>
 				</div>
-<!-- Data============================================================= -->
-				<section id="content1" class="data">
-					<p>1</p>
-				</section>  
-				<section id="content2" class="data">
-					<p>2</p>
-				</section>  
-				<section id="content3" class="data">
-					<p>4 </p>
-				</section>
-<!-- Footer============================================================= -->
-				<footer class="footer">
-					<h5>footer</h5>
-				</footer>
-			</div>
+      </header>
+			<main >
+        <div class="tabs">
+          <div id="container">
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label for="tab1">вкладка 1</label>
+            <input id="tab2" type="radio" name="tabs">
+            <label for="tab2">вкладка 2</label>
+            <input id="tab3" type="radio" name="tabs">
+            <label for="tab3">вкладка 3</label>
+            <input id="tab4" type="radio" name="tabs">
+            <label for="tab4">вкладка 4</label>
+            <section id="content1">
+              <p>1</p>
+            </section>  
+            <section id="content2">
+              <p>2</p>
+            </section>  
+            <section id="content3">
+              <p>3</p>
+            </section>  
+            <section id="content4">
+              <p>4</p>
+            </section>  
+          </div>
+        </div>
+      </main>	
+			<footer class="footer">
+				<h5>footer</h5>
+			</footer>
 		</div>
 	</div>
 

@@ -7,6 +7,10 @@
 .wrapper {
   background: #363f48;
   height: 100vmin;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header {
@@ -46,7 +50,9 @@
 }
 
 .tabs {
-  margin: 15px;
+  width: 800px;
+  padding: 0px;
+  margin: 0 auto;
   position: relative;
   border: 1px solid #DEE8F2;
 }
@@ -103,4 +109,4 @@ section {
     transform: scale(1);
     opacity: 1;
   }
-}/*# sourceMappingURL=style.css.map */
+}
