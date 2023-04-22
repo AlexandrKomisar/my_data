@@ -2,21 +2,33 @@
     margin: 15px;
   position: relative;
   border: 1px solid #DEE8F2;
+  & input {
+  display: none;
+  }
   &__btnWater{
     background: #4ba4e8;
   }
   &__water{
-     display: none;  
-  padding: 15px;
-  background: #4ba4e8;
-  color: aliceblue;
-  font-weight: 700;
-  font-size: 18px;
-  position: absolute;
-  top: 0;
-  left: 180px;
-  width: 800px;
+    padding: 15px;
+    background: #4ba4e8;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    width: 800px;
+    & input{
+      display: block;
+      font-size: 20px;
+      padding: 5px;
+      margin: 5px 0;
+      width: 150px;
+    }
+    & form{
+      display: flex;
 
+    }
   }
 }
 section {
@@ -27,16 +39,11 @@ section {
   top: 0;
   left: 180px;
 }
-p {
-  margin: 0;
-}
-input {
-  display: none;
-}
+
 label {
   display: block;
   width: 180px;
-  padding: 15px;
+  padding: 5px;
   color: #4F5966;
   background: #d1dbe5;
   cursor: pointer;

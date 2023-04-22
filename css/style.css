@@ -50,11 +50,13 @@
   position: relative;
   border: 1px solid #DEE8F2;
 }
+.tabs input {
+  display: none;
+}
 .tabs__btnWater {
   background: #4ba4e8;
 }
 .tabs__water {
-  display: none;
   padding: 15px;
   background: #4ba4e8;
   color: aliceblue;
@@ -64,6 +66,16 @@
   top: 0;
   left: 180px;
   width: 800px;
+}
+.tabs__water input {
+  display: block;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px 0;
+  width: 150px;
+}
+.tabs__water form {
+  display: flex;
 }
 
 section {
@@ -75,18 +87,10 @@ section {
   left: 180px;
 }
 
-p {
-  margin: 0;
-}
-
-input {
-  display: none;
-}
-
 label {
   display: block;
   width: 180px;
-  padding: 15px;
+  padding: 5px;
   color: #4F5966;
   background: #d1dbe5;
   cursor: pointer;
